@@ -31,7 +31,7 @@ docker-compose up --build
 http://localhost:3000
 ```
 
-### 5. Parar o container
+### 4. Parar o container
 
 ```
 docker-compose down
