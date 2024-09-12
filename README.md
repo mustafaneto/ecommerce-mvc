@@ -19,19 +19,13 @@ git clone https://github.com/mustafaneto/ecommerce-mvc.git
 cd ecommerce-mvc
 ```
 
-### 2. Construir a imagem Docker
+### 2. Construir e executar o container
 
 ```
-docker build -t mustafaneto/ecommerce-mvc .
+docker-compose up --build
 ```
 
-### 3. Executar o container
-
-```
-docker run -p 3000:3000 mustafaneto/ecommerce-mvc:latest
-```
-
-### 4. Acessar o aplicativo
+### 3. Acessar o aplicativo
 
 ```
 http://localhost:3000
@@ -39,8 +33,9 @@ http://localhost:3000
 
 ### 5. Parar o container
 
-Se precisar parar o container, pressione CTRL + C no terminal onde o container está sendo executado.
-
+```
+docker-compose down
+```
 
 
 
